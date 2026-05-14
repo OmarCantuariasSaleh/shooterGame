@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://cjvqi0ke2avo"]
+
+[ext_resource type="Texture2D" uid="uid://bun3b6wynjgid" path="res://graphics/png/playerShip2_blue.png" id="1_3vyb7"]
+[ext_resource type="Script" uid="uid://du60lldvgcg0i" path="res://scenes/player.gd" id="1_g2els"]
+
+[node name="Player" type="Node2D" unique_id=1445685283]
+script = ExtResource("1_g2els")
+
+[node name="PlayerSprite" type="Sprite2D" parent="." unique_id=2103239003]
+texture = ExtResource("1_3vyb7")
+metadata/_edit_lock_ = true
